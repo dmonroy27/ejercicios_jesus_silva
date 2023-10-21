@@ -76,3 +76,30 @@ alert(resultado = numero1 * numero2);
 }else if(numero1 > numero2) {
     alert(resutado = numero1 - numero2);
 }
+
+/* ejercicio 7*/
+let numero =  parseInt(prompt("ingrese un numero "));
+
+if(numero > 0) {
+    alert("el numero es positivo");
+}else if(numero < 0) {
+    alert("es negativo");
+}else {
+    alert("el numero el igual a cero");
+}
+
+/*ejercicio 8*/
+let persona1 = prompt(" nombre persona 1");
+let edad1 = parseInt(prompt("ingrese su edad "));
+let persona2 = prompt("nombre persona 2 ");
+let edad2 = parseInt(prompt("ingrese su edad "));
+
+if(edad1 > edad2) {
+    alert(persona1 + " es mayor que " + persona2);
+}else if(edad2 > edad1){
+    alert(persona2 + " es mayor que " + persona1);
+}else {
+    alert(persona1 + " y " + persona2 + "tienen la misma eda");
+}
+
+/* ejercicio 9*/
