@@ -75,6 +75,8 @@ alert(resultado = numero1 * numero2);
 
 }else if(numero1 > numero2) {
     alert(resutado = numero1 - numero2);
+}else {
+    alert(resultado = numero1 + numero2);
 }
 
 /* ejercicio 7*/
@@ -91,7 +93,7 @@ if(numero > 0) {
 /*ejercicio 8*/
 let persona1 = prompt(" nombre persona 1");
 let edad1 = parseInt(prompt("ingrese su edad "));
-let persona2 = prompt("nombre persona 2 ");
+let persona2 = prompt(" nombre persona 2 ");
 let edad2 = parseInt(prompt("ingrese su edad "));
 
 if(edad1 > edad2) {
@@ -99,7 +101,37 @@ if(edad1 > edad2) {
 }else if(edad2 > edad1){
     alert(persona2 + " es mayor que " + persona1);
 }else {
-    alert(persona1 + " y " + persona2 + "tienen la misma eda");
+    alert(persona1 + " y " + persona2 + " tienen la misma eda");
 }
 
 /* ejercicio 9*/
+let number = prompt("ingrese un numero");
+
+if(number < 10) {
+    alert("el numero es menor que 10");
+}else if(number >= 10 && number <=20) {
+    alert("es un numero entre 10 y 20");
+}else {
+    alert("el numero ingresado es mayor que 20");
+}
+
+/* ejercicio 10*/
+let usuario = prompt("ingrese su usuario");
+let contraseña = prompt("ingrese su contraseña ");
+
+if(usuario === "admin" && contraseña === "12345") {
+    alert("acceso permitido");
+}else {
+    alert("acceso denegado");
+}
+
+/* ejercicio 11*/
+let camisas = parseFloat(prompt('cuantas camisas compro'));
+let precio = 30000*camisas;
+
+
+if(camisas >= 3) {
+    alert(precio * 0.80);
+}else {
+    alert(precio * 0.90);
+}
