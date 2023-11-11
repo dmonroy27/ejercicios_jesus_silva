@@ -135,3 +135,20 @@ if(camisas >= 3) {
 }else {
     alert(precio * 0.90);
 }
+
+/* ejercicio 12 */
+
+let nota = parseFloat(prompt("ingrese su nota final de la materia"));
+
+
+if(nota >= 1.0 && nota <= 3.3) {
+    alert("desempeño bajo");
+}else if(nota >= 3.4 && nota <= 3.8) {
+    alert("desempeño basico");
+}else if(nota >= 3.9 && nota <= 4.4) {
+    alert("desempeño alto");
+}else if(nota >=4.5 && nota <= 5.0) {
+    alert("desempeño superior");
+}else {
+    alert("nota invalida")
+}
